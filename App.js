@@ -16,7 +16,7 @@ export default function App() {
         style={styles.image}
       />
       <Text style={styles.text}>Por cierto... Michi tiene dientes de Coneeejoo</Text>
-      <TextInput style={styles.input}/>
+      <TextInput onChangeText={(text) => console.log(text)} style={styles.input}/>
     </View>
   );
 }
